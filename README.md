@@ -10,21 +10,21 @@ Completed structure of project is described below
 
     You are given the following endpoints:
 
-    POST: /register - all<br/>
-    GET: /cinema-halls - user/admin<br/>
-    POST: /cinema-halls - admin<br/>
-    GET: /movies - user/admin<br/>
-    POST: /movies - admin<br/>
-    GET: /movie-sessions/available - user/admin<br/>
-    GET: /movie-sessions/{id} - user/admin<br/>
-    POST: /movie-sessions - admin<br/>
-    PUT: /movie-sessions/{id} - admin<br/>
-    DELETE: /movie-sessions/{id} - admin<br/>
-    GET: /orders - user<br/>
-    POST: /orders/complete - user<br/>
-    PUT: /shopping-carts/movie-sessions - user<br/>
-    GET: /shopping-carts/by-user - user<br/>
-    GET: /users/by-email - admin<br/>
+    POST: /register - all
+    GET: /cinema-halls - user/admin
+    POST: /cinema-halls - admin
+    GET: /movies - user/admin
+    POST: /movies - admin
+    GET: /movie-sessions/available - user/admin
+    GET: /movie-sessions/{id} - user/admin
+    POST: /movie-sessions - admin
+    PUT: /movie-sessions/{id} - admin
+    DELETE: /movie-sessions/{id} - admin
+    GET: /orders - user
+    POST: /orders/complete - user
+    PUT: /shopping-carts/movie-sessions - user
+    GET: /shopping-carts/by-user - user
+    GET: /users/by-email - admin
 
 ### **Technologies**
 1. Java 11
