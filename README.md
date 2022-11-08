@@ -11,6 +11,7 @@ Completed structure of project is described below
     You are given the following endpoints:
 
     POST: /register - all
+
     GET: /cinema-halls - user/admin
     POST: /cinema-halls - admin
     GET: /movies - user/admin
@@ -31,9 +32,8 @@ Completed structure of project is described below
 2. Maven
 3. MySQL
 4. Hibernate
-5. Javax servlet API
-6. Spring (REST, Web, Security)
-7. Tomcat 9.0.50 (to run app locally)
+5. Spring (REST, Web, Security)
+6. Tomcat 9.0.50 (to run app locally)
 
 ### **How to run this application**
 1. Install MySQL
@@ -50,4 +50,9 @@ for example:
     PASSWORD = "1234";
     JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
 ~~~
-6. Run this project using Tomcat local server
+6. Needs to create a schema before launching a project
+~~~
+for example: 
+    CREATE SCHEMA `cinema` ;
+~~~
+7. Run this project using Tomcat local server
